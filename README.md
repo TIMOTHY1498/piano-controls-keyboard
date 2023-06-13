@@ -1,2 +1,6 @@
 # piano-controls-keyboard
-idk
+idk , bruh
+
+# Function
+
+for playing roblox using a piano note (template)
