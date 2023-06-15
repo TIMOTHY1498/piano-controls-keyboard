@@ -3,9 +3,9 @@ import sounddevice as sd
 import numpy as np
 
 def pitch_to_key(pitch):
-    if pitch < 440:
+    if pitch < 70:
         return pynput.keyboard.KeyCode.from_char('w')
-    elif pitch < 200:
+    elif pitch < 60:
         return pynput.keyboard.KeyCode.from_char('a')
     elif pitch < 300:
         return pynput.keyboard.KeyCode.from_char('s')
